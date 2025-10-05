@@ -183,6 +183,9 @@ body{
         display: none;
     }
     .phone_bar{
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         position: relative;
         display: flex;
         justify-content: space-between;
@@ -190,21 +193,21 @@ body{
         margin-bottom: 10px;
     }
     .phone_nav{
-        background-color: rgb(255, 255, 255);
-        border-radius: 10px;
+        /* background-color: rgb(255, 255, 255);
+        border-radius: 10px; */
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
         width: 19%;
     }
     #logo_phone{
         display: flex;
         position: relative;
-        background-color: rgb(255, 255, 255);
+        /* background-color: rgb(255, 255, 255); */
         border-radius: 10px;
         padding: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
         justify-content: space-between;
     }
     .menu_icon{
