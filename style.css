@@ -183,7 +183,7 @@ body{
         display: none;
     }
     .phone_bar{
-        position: sticky;
+        position: relative;
         display: flex;
         justify-content: space-between;
         width: 90%;
@@ -225,7 +225,7 @@ body{
         position: absolute;
         top: 40px;
         left: 0;
-        width: 100px;
+        width: 100%;
         background-color: white;
         border-radius: 10px;
         box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
@@ -233,6 +233,7 @@ body{
         flex-direction: column;
         text-align: center;
         z-index: 5;
+        margin-top: 25px;
     }
     .dropdown_menu a {
         text-decoration: none;
@@ -246,7 +247,7 @@ body{
         border-bottom: none;
     }
 
-    #menu_toggle:checked + .menu_icon + #logo_phone + .dropdown_menu {
+    #menu_toggle:checked + .menu_icon + .dropdown_menu {
         display: flex;
     }
 
